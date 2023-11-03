@@ -1,5 +1,3 @@
-Here the 'View' stands for the 'View' in MVC framework.
-
 # React
 
 React handle View with JSX and Render function.
@@ -67,6 +65,7 @@ Angular uses the double curly braces {{ and }} as delimiters.
 ```
 
 Note:
+
 Please notice the attribution differences between React and Angular.
 
 React:
