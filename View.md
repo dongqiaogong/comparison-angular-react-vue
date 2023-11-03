@@ -55,6 +55,31 @@ Actually, it is:
 }>
 ```
 
+# Angular
+
+In Angular, a template is a blueprint for a fragment of a user interface (UI). Templates are written in HTML, and special syntax can be used within a template to build on many of Angular's features.
+
+Angular uses the double curly braces {{ and }} as delimiters.
+
+```javascript
+<p>{{title}}</p>
+<div><img alt="item" src="{{itemImageUrl}}"></div>
+```
+
+Note:
+Please notice the attribution differences between React and Angular.
+
+React:
+```javascript
+<img src={itemImageUrl} />
+```
+
+Angular:
+```javascript
+<img src="{{itemImageUrl}}" />
+```
+
+
 
 
 
