@@ -17,3 +17,28 @@
 - Most of the time, it handled by Angular framework.
 
 ## ngAfterContentxxx
+```html
+<ExampleComponent>
+    <!-- This is 'Content' -->
+    <p>A paragraph</p>
+    <!-- 'Content' end-->
+</ExampleComponent>
+```
+
+This is the ExampleComponent Template
+```html
+<p>I am ExampleComponent</p>
+<ng-content></ng-content>
+```
+
+Note: If there is no <ng-content>, the ```<p>Here is 'Content'</p>``` will not be shown.
+
+## ngAfterViewxxx
+This is the ExampleComponent Template
+```html
+<!-- This is 'View' -->
+<p>I am ExampleComponent</p>
+<ExampleChildComponent></ExampleChildComponent>
+<!-- 'View' end-->
+<ng-content></ng-content>
+```
